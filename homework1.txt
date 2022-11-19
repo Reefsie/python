@@ -1,0 +1,33 @@
+Python
+1). Create 6 variables:
+    - 3 variables of: your name, surname, age
+    - 3 variables of: Ozzy's name, surname, age
+    
+2). Create 2 additional variable, of data-type (list):
+    - 1 list that contains your details
+    - 1 list that contains Ozzy's details
+
+3). Create a function that gets a person's age:
+    - Name the function: get_age
+    - The function should take 1 argument (list of person's details)
+    - The function should return the birth year (do not worry about the exact date, HINT: 2022-age)
+
+4). Run/Call the function twice WITHIN a print function:
+    - HINT: As an argument/parameter, supply the list of person's details
+    
+HTTP
+- What is port 443?
+- Which is preferred 80 or 443?
+- Describe the following error codes:
+    - 4xx
+    - 2xx
+    - 3xx
+    - 1xx
+    - 5xx
+    - 301
+    - 403 (good description)
+    - 401 (good description)
+    - 201
+    - 202
+
+Git
