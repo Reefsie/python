@@ -1,0 +1,17 @@
+HTTP
+- What is port 443?
+- Which is preferred 80 or 443?
+- Describe the following error codes:
+    - 4xx
+    - 2xx
+    - 3xx
+    - 1xx
+    - 5xx
+    - 301
+    - 403 (good description)
+    - 401 (good description)
+    - 201
+    - 202
+
+
+    arif remember to commit this to github
