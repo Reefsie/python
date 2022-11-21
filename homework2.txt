@@ -1,0 +1,12 @@
+1). create a list of 5 fruits (make sure apple is one of them)
+    - loop through the list and find apple
+
+2). create another list of 5 brands, make sure the letter p isn't used
+
+3). create a function (does_it_have_p) that accepts a list as a single argument:
+    - The function should return a boolean value based on if an element of a list contains the letter 'p' (HINT: google on how to check if sub_string is in string)
+
+4). You are a senior solutions architect for all Bulgarian night clubs. The customers of these clubs have been
+reporting that underage people enter the club. You have been hired to develop a Python application that will 
+accept your age and your name. Entry age should be 21. If you are below the age of 21 you shouldn't be allowed to enter.
+In you are underage, you should be redirected to school.
