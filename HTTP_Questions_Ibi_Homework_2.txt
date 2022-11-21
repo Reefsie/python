@@ -1,17 +1,21 @@
 HTTP
 - What is port 443?
-- Which is preferred 80 or 443?
+To start simply, a network port is used to direct traffic to the right places (helps devices involved identify
+which service is being requested). Port 443 is used for secure transfers and is the standard port for HTTPS traffic,
+though in cases where the site uses HTTPS  but is unavailable over port 443, port 80 can step in to load the HTTPS-enabled website
+Fun Fact: >95% of requests over Chrome served using an HTTPS connection via port 443
+- Which is preferred 80 or 443? Port 80 and Port 443 differ through security. Port-443 allows data to be transmitted over a secured network, whilst port 80
+enables data transmission in plain text. For secure data t ransmission, Port-443 is preferred.
 - Describe the following error codes:
-    - 4xx
-    - 2xx
-    - 3xx
-    - 1xx
-    - 5xx
-    - 301
-    - 403 (good description)
-    - 401 (good description)
-    - 201
-    - 202
+    - 4xx: Client error codes which indicate that there is a problem with the request itself
+    - 2xx: Success code, returned when a browser request is received, understood and processed by the server
+    - 3xx: A redirection code return, so where a resource has been replaced/substituted with another, and that substitution is what the user is shown
+    - 1xx: Informational codes, they indicate that the request initiated by the browser is continuing
+    - 5xx: Server error codes, these indicate that the request was accepted, but an error on the server prevented the fulfilment of the request0
+    - 301: a HTTP status code signalling a permanent redirect from one URL to another, i.e. when a page/website has been permanently moved or removed from a website
+    - 403 (good description): A HTTP status code which means that the server understood the request but will not process it for some reason, usually a lack of permissions. 
+    - 401 (good description): A HTTP status code which indicates that the request has not been applied as the user lacks valid authentication credentials.
+    - 201: A HTTP status code which indicates that the request has succeeded and has led to the creation of a resource
+    - 202: A HTTP status code which indicates that the request has been accepted for processing, but the processing hasn't completed yet (or may not have even begun processing)
 
 
-    arif remember to commit this to github
